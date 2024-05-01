@@ -1,13 +1,12 @@
-function holaMundo() 
+function holaMundo()
 {
-    if (confirm("Cambiamos el párrafo?")) 
+    if (confirm("Cambiamos el párrafo?"))
     {
         alert("DIJO QUE SI");
-        document.getElementById("FUN").innerText = "Cambie el texto";
+        document.querySelector("p").innerText = "Cambie el texto DEL PARRAFO";
     } 
-    else 
+    else
     {
-        alert("DIJO QUE NO :(");
-        document.getElementById("FUN").innerText = "TONZ no cambio naaaa";
+        alert("No se generaran cambios");
     }
 }
